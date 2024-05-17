@@ -1,12 +1,44 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>November Second</title>
-</head>
-<body>
-  <h1>November Second</h1>
-  <h2>Just the start</h2>
-</body>
+<!doctype html>
+<html lang="{{ .Site.Language.Lang }}">
+  {{ partial "head.html" . }}
+  <body>
+    <div class="container">
+      <div class="d-flex flex-column justify-content-center align-items-center p-5">
+        <h1 class="text-center">{{ .Site.Title }}</h1>
+        <h2>Software Solutions</h2>
+      </div>
+      <div class="d-flex flex-column-reverse flex-lg-column">
+        <div
+          class="d-flex align-items-center justify-content-center w-100 flex-column mb-5 col-6"
+        >
+          <div class="fade-slide col-lg-10 col-12 container">
+            <h3 class="mb-3 special-font fw-bolder fs-1">Get in Contact</h3>
+            <div class="row justify-content-center p-4 card shadow">
+              <!-- modify this form HTML and place wherever you want your form -->
+              <form
+                action="https://formspree.io/f/mayrkvlb"
+                method="POST"
+              >
+                <div class="form-group mb-4">
+                  <label>Name:</label>
+                  <input class="form-control" type="text" name="name" placeholder="Enter your full name">
+                </div>
+                <div class="form-group mb-4">
+                  <label>Email Address:</label>
+                  <input class="form-control" type="email" name="email" placeholder="Enter your email address">
+                </div>
+                <div class="form-group mb-4">
+                  <label>Your message:</label>
+                  <textarea placeholder="Please describe your needs and let us know your preferred timing for a discussion" class="form-control" name="message" rows="5"></textarea>
+                </div>
+                <!-- your other form fields go here -->
+                <button type="submit" class="btn btn-primary">Send</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </body>
 </html>

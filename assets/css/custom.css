@@ -1,0 +1,25 @@
+body {
+  /* background-color: rgb(242, 228, 209); */
+  background-image: linear-gradient(135deg, rgb(242, 228, 209), rgb(204, 176, 137));
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: "Amatic SC", sans-serif;
+  font-weight: 700;
+  font-size: 5rem;
+  font-style: normal;
+}
+
+h2 {
+  font-family: "Amatic SC", sans-serif;
+  font-weight: 400;
+  font-size: 3rem;
+  font-style: normal;
+}
+
+.special-font {
+  font-family: "Amatic SC", sans-serif;
+}

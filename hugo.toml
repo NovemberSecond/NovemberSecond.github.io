@@ -1,3 +1,6 @@
-baseURL = 'https://example.org/'
+baseURL = 'novembersecond.net'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'November Second'
+subtitle = 'Software Solutions'
+[params]
+customcss = ["css/custom.css"]
