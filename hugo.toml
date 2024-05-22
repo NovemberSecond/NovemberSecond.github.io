@@ -1,6 +1,8 @@
 baseURL = 'novembersecond.net'
 languageCode = 'en-us'
 title = 'November Second'
-subtitle = 'Software Solutions'
 [params]
+subtitle = 'Software Solutions'
+description = 'Software Solutions'
+og_image = "/icon.png"
 customcss = ["css/custom.css"]
