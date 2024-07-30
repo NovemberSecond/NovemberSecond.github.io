@@ -1,9 +1,7 @@
-
-
-
 html {
   scroll-behavior: smooth;
   overscroll-behavior: none;
+  background-color: rgb(242, 228, 209);
 }
 
 body {
