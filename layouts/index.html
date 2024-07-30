@@ -2,62 +2,45 @@
 <html lang="{{ .Site.Language.Lang }}">
   {{ partial "head.html" . }}
   <body>
-    <div class="container">
-      <div class="d-flex flex-column justify-content-center align-items-center p-5" >
-        <h1 class="text-center">{{ .Site.Title }}</h1>
-        <h2>Software Solutions</h2>
-      </div>
-      <div class="d-flex justify-content-center">
-        <div class="d-flex flex-column col-12 col-lg-8">
-          <div class="fade-slide container mb-5">
-            <div class="mb-5">
-              {{ .Content }}
-            </div>
+    <div class="m-2">
+      <h1>November <br>Second<div id="blinking-cursor"></div></h1>
+      <h2>Software Solutions</h2>
+    </div>
+    <h3 class="m-5">This website is still under construction...</h3>
+    <div class="mt-5 container d-flex justify-content-center mb-5 pb-5">
+      <div class="col-12 col-lg-8 p-4 rounded-3 shadow">
+        <!-- modify this form HTML and place wherever you want your form -->
+        <form action="https://formspree.io/f/mayrkvlb" method="POST">
+          <div class="form-group mb-4">
+            <label>Name:</label>
+            <input
+              class="form-control"
+              type="text"
+              name="name"
+              placeholder="Enter your full name"
+            />
           </div>
-
-          <div class="fade-slide container mb-5 pb-5">
-            <h3 class="mb-3 special-font fw-bolder fs-1">Get in Contact</h3>
-            <div class="row justify-content-center p-4 card shadow">
-              <!-- modify this form HTML and place wherever you want your form -->
-              <form action="https://formspree.io/f/mayrkvlb" method="POST">
-                <div class="form-group mb-4">
-                  <label>Name:</label>
-                  <input
-                    class="form-control"
-                    type="text"
-                    name="name"
-                    placeholder="Enter your full name"
-                  />
-                </div>
-                <div class="form-group mb-4">
-                  <label>Email Address:</label>
-                  <input
-                    class="form-control"
-                    type="email"
-                    name="email"
-                    placeholder="Enter your email address"
-                  />
-                </div>
-                <div class="form-group mb-4">
-                  <label>Your message:</label>
-                  <textarea
-                    placeholder="Please describe your needs and let us know your preferred timing for a discussion"
-                    class="form-control"
-                    name="message"
-                    rows="5"
-                  ></textarea>
-                </div>
-                <!-- your other form fields go here -->
-                <button type="submit" class="btn btn-primary">Send</button>
-              </form>
-            </div>
+          <div class="form-group mb-4">
+            <label>Email Address:</label>
+            <input
+              class="form-control"
+              type="email"
+              name="email"
+              placeholder="Enter your email address"
+            />
           </div>
-
-          <div class="card p-4 mb-5">
-            <h3>Mission Statement</h3>
-            <p>Everything you make is in someway an expression of yourself, it captures a moment and tells your story. Unlike a painting or a photo, software is a living, breathing, and ever-changing expression. We make the tools to help you change the world.</p>
+          <div class="form-group mb-4">
+            <label>Your message:</label>
+            <textarea
+              placeholder="Please describe your needs and let us know your preferred timing for a discussion"
+              class="form-control"
+              name="message"
+              rows="5"
+            ></textarea>
           </div>
-        </div>
+          <!-- your other form fields go here -->
+          <button type="submit" class="btn btn-primary">Send</button>
+        </form>
       </div>
     </div>
   </body>
