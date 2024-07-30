@@ -28,6 +28,7 @@ header {
 .main {
   min-height: 100vh;
   backdrop-filter: invert() blur(25px);
+  -webkit-backdrop-filter: invert() blur(25px);
   background-color: rgba(0, 0, 0, 0.37);
   color: white;
 }
