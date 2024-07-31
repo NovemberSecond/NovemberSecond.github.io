@@ -6,6 +6,7 @@ html {
 
 body {
   overscroll-behavior: none;
+  background-color: rgb(242, 228, 209);
   background-image: linear-gradient(
     135deg,
     rgb(242, 228, 209),
