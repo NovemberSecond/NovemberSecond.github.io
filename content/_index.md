@@ -32,6 +32,7 @@ content="According to LinkedIn 75% of users judge a company's credibility based 
 
 ## Get In Touch
 
+Let us know what you need and when you're available to discuss it. Your first consulation is completely free and can be done in-person, over the phone, or on Zoom.
 {{< contact-form >}}
 
 {{< spacer >}}
