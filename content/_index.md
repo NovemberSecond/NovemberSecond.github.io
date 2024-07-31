@@ -31,3 +31,11 @@ content="According to LinkedIn 75% of users judge a company's credibility based 
 {{< spacer >}}
 
 ## Get In Touch
+
+{{< contact-form >}}
+
+{{< spacer >}}
+
+## Our Philosophy
+
+A good piece of software isn’t just functional. It’s part of a story. It plays a role in building an identity. Unlike any other medium, software can evolve. We want to do your story justice and tell it in a way that represents you and your brand. We make the tools for you to shape the world.
